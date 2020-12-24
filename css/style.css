@@ -1,0 +1,71 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    transition: all 0.4s;
+}
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.container{
+    padding: 0px 15px;
+    margin: 0px auto;
+    max-width: 1170px;
+    width: 100%;
+}
+.nkHeader{
+    padding: 10px 0px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.divOuter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.leftLogo{
+    width: 20%;
+}
+.rightMenu{
+    /* background-color: aqua; */
+    width: 80%;
+}
+.rightMenu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.rightMenu ul li{
+    padding: 0px 2px;
+    margin: 0px;
+}
+.rightMenu ul li a{
+    display: block;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+.mainBanner{
+    /* width: 100vw; */
+    height: 100vh;
+}
+.mainBanner img{
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;    
+}
+
+.testline{
+    background-color: red;
+    height: 10px;
+}
